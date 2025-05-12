@@ -1,4 +1,4 @@
-Micro Project Work
+<img width="1440" alt="Screenshot 2025-05-12 at 1 15 17 PM" src="https://github.com/user-attachments/assets/99966c30-b9dc-41d8-ac23-46309950bf76" />Micro Project Work
 
 contact email : varalakshmibalasubramani2002@gmail.com
 
@@ -38,16 +38,9 @@ Illustrations
 <img width="1440" alt="Screenshot 2025-05-12 at 12 49 37 PM" src="https://github.com/user-attachments/assets/f311513b-ada5-4609-994b-7707d776af04" />
 
 <img width="1426" alt="Screenshot 2025-05-12 at 12 56 50 PM" src="https://github.com/user-attachments/assets/36e3a1e8-70ea-4710-871a-44fef8f964b4" />
-
-![image](https://user-images.githubusercontent.com/84792843/221294735-851c5c8e-abef-4b72-9730-bf00620819ec.png)
-
-![image](https://user-images.githubusercontent.com/84792843/221294803-83985a1a-a70d-4483-b5ec-b98622f6aa59.png)
-
-![image](https://user-images.githubusercontent.com/84792843/221294891-97850c42-fa9f-4b36-bda3-bbc2dbb95223.png)
-
-![image](https://user-images.githubusercontent.com/84792843/221294929-b6813f59-5632-4d9f-8037-b619cc80dcc8.png)
-
-
+<img width="1440" alt="Screenshot 2025-05-12 at 1 13 45 PM" src="https://github.com/user-attachments/assets/af08ecc6-0c86-48ff-a4d2-8ff567d6844d" />
+<img width="1440" alt="Screenshot 2025-05-12 at 1 15 17 PM" src="https://github.com/user-attachments/assets/78de7dbf-e18e-427e-9a6b-f652f9e514f4" />
+<img width="1440" alt="Screenshot 2025-05-12 at 1 15 00 PM" src="https://github.com/user-attachments/assets/c17ee89c-08be-420d-bf5e-84b7552c4ec6" />
 Scope of functionalities : 
 
 Examples of use : can be used foe various other platforms like Online Examination Registration , Job Application , profile creation , and many more other uses .
@@ -79,7 +72,7 @@ Login with new password.
 
 Tools > Token > connection token > Generate (Token needed to communicate with Data Base)
 
-90932512|-31949274757731994|90949158
+90934669|-31949207107464211|90956059
 
 Token used to execute the API
 
@@ -110,23 +103,22 @@ Live working HTML, Templates.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PUT Command - Creating (Inserting) Record : - # IML (JPDB Index Manipulation Language) 
 PUT : Insert single record in the database
-Token - 90932512|-31949274757731994|90949158
+Token - 90934669|-31949207107464211|90956059
 
 Talend > post
 Base url : http://api.login2explore.com:5577
 End-point url : /api/iml (mentioned in command when different)
 
-BODY : 
 {
-    "token": "90932512|-31949274757731994|90949158",
+    "token": "90934669|-31949207107464211|90956059",
     "cmd": "PUT",
     "dbName": "Employee",
     "rel": "Emp-Rel",
     "jsonStr": {
-        "id": "1",
-        "name": "Soniya",
-        "email": "soniya@gmail.com",
-        "mobileno": "9967825671"
+        "id": "2",
+        "name": "Ajay Kailaash",
+        "email": "ajaykailaash@gmail.com",
+        "mobileno": "9876543210"
     }
 }
 
@@ -138,23 +130,22 @@ Total 1 rows are inserted, Added 0 columns as New Index Columns.","status":200}
 
 Dashboard > Visualize > Jsondb > select Database and Relation
 
-1	2/24/2023, 8:21:16 PM	soniya@gmail.com	1	9967825671	Soniya
+1	12/05/2025, 13:11:58	22 Temple Street, Kanchipuram	05/07/2007	9	12/05/2025	Ajay Kailaash	105
 
 New row - 
 
 {
-    "token": "90932512|-31949274757731994|90949158",
+    "token": "90934669|-31949207107464211|90956059",
     "cmd": "PUT",
     "dbName": "Employee",
     "rel": "Emp-Rel",
     "jsonStr": {
         "id": "2",
-        "name": "aniket",
-        "email": "aniket@gmail.com",
-        "mobileno": "8582887792"
+        "name": "Ajay Kailaash",
+        "email": "ajaykailaash@gmail.com",
+        "mobileno": "9876543210"
     }
 }
-
 {"data":"{\"rec_no\":[2]}","additionalData":{"processReqType":0,"dbUpdateFlag":true},
 "message":"DATA INSERTED, 
 Total 1 rows are inserted, Added 0 columns as New Index Columns.","status":200}
