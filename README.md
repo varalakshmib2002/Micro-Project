@@ -152,8 +152,8 @@ Total 1 rows are inserted, Added 0 columns as New Index Columns.","status":200}
 
 Dashboard > Visualize > Jsondb > select Database and Relation
 
-1	2/24/2023, 8:21:16 PM	soniya@gmail.com	1	9967825671	Soniya
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	8582887792	aniket
+1	12/05/2025, 13:07:24			10	2005-04-20	varalakshmibalasubramani2002@gmail.com			Varalakshmi	9876543210	101	A
+2	12/05/2025, 13:09:15	45 Anna Street, Kanchipuram	10/05/2006	10			12/05/2025	Yuvasri			103
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 GET Command - Retrieving Record : - # IRL (JPDB Index Retrieval Language)
@@ -175,14 +175,15 @@ POST | http://api.login2explore.com:5577/api/irl
 "token": "90932512|-31949274757731994|90949158",
 
 {
-    "token": "90932512|-31949274757731994|90949158",
+   {
+    "token": "90934669|-31949207107464211|90956059",
     "dbName": "Employee",
     "cmd": "GET",
     "rel": "Emp-Rel",
     "jsonStr": {
-        "name": "aniket"
+        "name": "Yuvasri"
     }
-
+}
 }
 
 
@@ -190,84 +191,6 @@ POST | http://api.login2explore.com:5577/api/irl
 :"{\"name\":\"aniket\",\"id\":\"2\",\"mobileno\":\"8582887792\",\"email\":\"aniket@gmail.com\"}"
 ,"message":"DATA RETRIEVED FROM PI","status":200}
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-UPDATE Command - Update a record : - # IML (JPDB Index Manipulation Language) 
-
-UPDATE : Update multiple records in the database or add a new column in a record
-
-POST | http://api.login2explore.com:5577/api/iml
-
-{
-    "token": "90932512|-31949274757731994|90949158",
-    "dbName": "Employee",
-    "cmd": "UPDATE",
-    "rel": "Emp-Rel",
-    "jsonStr": {
-      "1" : {
-        "name": "raju",
-      "email" : "raju@gmail.com"
-    	}
-            "2" : {
-      "mobileno":"66666666"
-    	}
-    }
-
-}
-
-
-{"data":"{\"1\":{\"name\":\"Soniya\",\"email\":\"soniya@gmail.com\"},\"2\":
-{\"mobileno\":\"8582887792\"},\"NewIndexColumnCreated\":0,\"NewNonIndexColumnCreated\":0}","additionalData":
-{"processReqType":0,"dbUpdateFlag":true},"message":"Success","status":200}
-
-
-1	2/24/2023, 8:21:16 PM	raju@gmail.com	1	9967825671	raju
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	66666666	aniket
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-REMOVE Command - Remove a record : - # IML (JPDB Index Manipulation Language) - To insert, update and delete Json data.
-
-REMOVE : Remove records from the database
-
-POST | http://api.login2explore.com:5577/api/iml
-
-{
-    "token": "90932512|-31949274757731994|90949158",
-    "dbName": "Employee",
-    "cmd": "REMOVE",
-    "rel": "Emp-Rel",
-     "record" : 1
-
-}
-
-
-{"data":"{\"removedRecNos\":[1],\"alreadyRemovedRecNos\":[],\"invalidRecNos\":[]}","additionalData":
-{"processReqType":0,"dbUpdateFlag":true},"message":"Success","status":200}
-
-
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	66666666	aniket
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Test - Understanding JPDB
-
-Test your knowledge 
-
-Attempts allowed: 5
-
-Time limit: 5 mins
-
-Grading method: Highest grade
-
-Summary of your previous attempts
-Attempt	State	Grade / 5.00	Review	Feedback
-1	Finished
-Submitted Friday, 24 February 2023, 9:20 PM
-5.00		
-Congratulations!! Excellent Performance! Keep it Up.
-
-Highest grade: 5.00 / 5.00.
-Overall feedback
-Congratulations!! Excellent Performance! Keep it Up.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ajax Concepts - A Desktop application feel on web-pages ; -
 
 AJAX - Asynchronous JavaScript And XML.
