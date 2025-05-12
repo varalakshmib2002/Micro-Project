@@ -37,9 +37,7 @@ RESET
 Illustrations
 <img width="1440" alt="Screenshot 2025-05-12 at 12 49 37 PM" src="https://github.com/user-attachments/assets/f311513b-ada5-4609-994b-7707d776af04" />
 
-![image](https://user-images.githubusercontent.com/84792843/221294639-5f04555f-074d-40fd-8bb8-74aef42de642.png)
-
-![image](https://user-images.githubusercontent.com/84792843/221294498-343226c6-f88d-4f85-92e7-f9342495cfba.png)
+<img width="1426" alt="Screenshot 2025-05-12 at 12 56 50 PM" src="https://github.com/user-attachments/assets/36e3a1e8-70ea-4710-871a-44fef8f964b4" />
 
 ![image](https://user-images.githubusercontent.com/84792843/221294735-851c5c8e-abef-4b72-9730-bf00620819ec.png)
 
