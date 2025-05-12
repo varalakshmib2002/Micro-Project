@@ -35,7 +35,7 @@ DELETE
 RESET
 
 Illustrations
-![image](https://user-images.githubusercontent.com/84792843/221294311-7ab75f8c-d5ee-4fed-92df-43d504a15a65.png)
+<img width="1440" alt="Screenshot 2025-05-12 at 12 49 37 PM" src="https://github.com/user-attachments/assets/f311513b-ada5-4609-994b-7707d776af04" />
 
 ![image](https://user-images.githubusercontent.com/84792843/221294639-5f04555f-074d-40fd-8bb8-74aef42de642.png)
 
