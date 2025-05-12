@@ -1172,7 +1172,7 @@ and open the template in the editor.
     </script>
   </body>
 </html>
-![image](https://user-images.githubusercontent.com/84792843/221289611-acb5c361-c3f7-4221-957e-5a7f9c489426.png)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Published Micro Project Code to Github
